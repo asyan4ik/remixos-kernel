@@ -724,7 +724,7 @@ F:	staging/iio/trigger/iio-trig-bfin-timer.c
 
 ANDROID DRIVERS
 M:	Greg Kroah-Hartman <gregkh@linuxfoundation.org>
-M:	Arve Hj�nnev�g <arve@android.com>
+M:	Arve Hjønnevåg <arve@android.com>
 M:	Riley Andrews <riandrews@android.com>
 T:	git git://git.kernel.org/pub/scm/linux/kernel/gregkh/staging.git
 L:	devel@driverdev.osuosl.org
@@ -869,7 +869,7 @@ S:	Maintained
 N:	sun[x4567]i
 
 ARM/Allwinner SoC Clock Support
-M:	Emilio López <emilio@elopez.com.ar>
+M:	Emilio LÃ³pez <emilio@elopez.com.ar>
 S:	Maintained
 F:	drivers/clk/sunxi/
 
@@ -988,7 +988,7 @@ F:	arch/arm/mach-ebsa110/
 F:	drivers/net/ethernet/amd/am79c961a.*
 
 ARM/ENERGY MICRO (SILICON LABS) EFM32 SUPPORT
-M:	Uwe Kleine-König <kernel@pengutronix.de>
+M:	Uwe Kleine-KÃ¶nig <kernel@pengutronix.de>
 L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 S:	Maintained
 N:	efm32
@@ -1603,7 +1603,7 @@ F:	arch/arm/mach-pxa/include/mach/z2.h
 
 ARM/ZYNQ ARCHITECTURE
 M:	Michal Simek <michal.simek@xilinx.com>
-R:	Sören Brinkmann <soren.brinkmann@xilinx.com>
+R:	SÃ¶ren Brinkmann <soren.brinkmann@xilinx.com>
 L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 W:	http://wiki.xilinx.com
 T:	git git://git.xilinx.com/linux-xlnx.git
@@ -2244,7 +2244,7 @@ F:	drivers/gpio/gpio-bcm-kona.c
 F:	Documentation/devicetree/bindings/gpio/gpio-bcm-kona.txt
 
 BROADCOM SPECIFIC AMBA DRIVER (BCMA)
-M:	Rafał Miłecki <zajec5@gmail.com>
+M:	RafaÅ MiÅecki <zajec5@gmail.com>
 L:	linux-wireless@vger.kernel.org
 S:	Maintained
 F:	drivers/bcma/
@@ -2522,6 +2522,13 @@ T:	git git://github.com/hzpeterchen/linux-usb.git
 L:	linux-usb@vger.kernel.org
 S:	Maintained
 F:	drivers/usb/chipidea/
+
+CHIPONE ICN8318 I2C TOUCHSCREEN DRIVER
+ M:	Hans de Goede <hdegoede@redhat.com>
+ L:	linux-input@vger.kernel.org
+ S:	Maintained
+ F:	Documentation/devicetree/bindings/input/touchscreen/chipone_icn8318.txt
+ F:	drivers/input/touchscreen/chipone_icn8318.c
 
 CHROME HARDWARE PLATFORM SUPPORT
 M:	Olof Johansson <olof@lixom.net>
@@ -3327,7 +3334,7 @@ F:	include/uapi/drm/
 
 RADEON DRM DRIVERS
 M:	Alex Deucher <alexander.deucher@amd.com>
-M:	Christian König <christian.koenig@amd.com>
+M:	Christian KÃ¶nig <christian.koenig@amd.com>
 L:	dri-devel@lists.freedesktop.org
 T:	git git://people.freedesktop.org/~agd5f/linux
 S:	Supported
@@ -3377,7 +3384,7 @@ F:	Documentation/devicetree/bindings/drm/imx/
 
 DRM DRIVERS FOR NVIDIA TEGRA
 M:	Thierry Reding <thierry.reding@gmail.com>
-M:	Terje Bergström <tbergstrom@nvidia.com>
+M:	Terje BergstrÃ¶m <tbergstrom@nvidia.com>
 L:	dri-devel@lists.freedesktop.org
 L:	linux-tegra@vger.kernel.org
 T:	git git://anongit.freedesktop.org/tegra/linux.git
@@ -3797,7 +3804,7 @@ S:	Supported
 F:	drivers/scsi/lpfc/
 
 ENE CB710 FLASH CARD READER DRIVER
-M:	Michał Mirosław <mirq-linux@rere.qmqm.pl>
+M:	MichaÅ MirosÅaw <mirq-linux@rere.qmqm.pl>
 S:	Maintained
 F:	drivers/misc/cb710/
 F:	drivers/mmc/host/cb710-mmc.*
@@ -3950,7 +3957,7 @@ F:	lib/fault-inject.c
 
 FBTFT Framebuffer drivers
 M:	Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
-M:	Noralf Trønnes <noralf@tronnes.org>
+M:	Noralf TrÃ¸nnes <noralf@tronnes.org>
 S:	Maintained
 F:	drivers/staging/fbtft/
 
@@ -6983,7 +6990,7 @@ F:	drivers/regulator/twl-regulator.c
 F:	include/linux/i2c-omap.h
 
 OMAP DEVICE TREE SUPPORT
-M:	Benoît Cousson <bcousson@baylibre.com>
+M:	BenoÃ®t Cousson <bcousson@baylibre.com>
 M:	Tony Lindgren <tony@atomide.com>
 L:	linux-omap@vger.kernel.org
 L:	devicetree@vger.kernel.org
@@ -7070,7 +7077,7 @@ S:	Maintained
 F:	drivers/char/hw_random/omap-rng.c
 
 OMAP HWMOD SUPPORT
-M:	Benoît Cousson <bcousson@baylibre.com>
+M:	BenoÃ®t Cousson <bcousson@baylibre.com>
 M:	Paul Walmsley <paul@pwsan.com>
 L:	linux-omap@vger.kernel.org
 S:	Maintained
@@ -7083,7 +7090,7 @@ S:	Maintained
 F:	arch/arm/mach-omap2/omap_hwmod*data*
 
 OMAP HWMOD DATA FOR OMAP4-BASED DEVICES
-M:	Benoît Cousson <bcousson@baylibre.com>
+M:	BenoÃ®t Cousson <bcousson@baylibre.com>
 L:	linux-omap@vger.kernel.org
 S:	Maintained
 F:	arch/arm/mach-omap2/omap_hwmod_44xx_data.c
@@ -7583,7 +7590,7 @@ S:	Maintained
 F:	drivers/mtd/devices/phram.c
 
 PICOLCD HID DRIVER
-M:	Bruno Prémont <bonbons@linux-vserver.org>
+M:	Bruno PrÃ©mont <bonbons@linux-vserver.org>
 L:	linux-input@vger.kernel.org
 S:	Maintained
 F:	drivers/hid/hid-picolcd*
@@ -8618,7 +8625,7 @@ F:	drivers/scsi/
 F:	include/scsi/
 
 SCSI TAPE DRIVER
-M:	Kai Mäkisara <Kai.Makisara@kolumbus.fi>
+M:	Kai MÃ¤kisara <Kai.Makisara@kolumbus.fi>
 L:	linux-scsi@vger.kernel.org
 S:	Maintained
 F:	Documentation/scsi/st.txt
@@ -10621,7 +10628,7 @@ S:	Maintained
 F:	drivers/hid/hid-wiimote*
 
 WINBOND CIR DRIVER
-M:	David Härdeman <david@hardeman.nu>
+M:	David HÃ¤rdeman <david@hardeman.nu>
 S:	Maintained
 F:	drivers/media/rc/winbond-cir.c
 
@@ -10793,7 +10800,7 @@ F:	drivers/pci/*xen*
 
 XEN BLOCK SUBSYSTEM
 M:	Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>
-M:	Roger Pau Monné <roger.pau@citrix.com>
+M:	Roger Pau MonnÃ© <roger.pau@citrix.com>
 L:	xen-devel@lists.xenproject.org (moderated for non-subscribers)
 S:	Supported
 F:	drivers/block/xen-blkback/*
